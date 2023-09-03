@@ -1,0 +1,80 @@
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: fit-content;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #e2e2e2 0%,
+    rgb(149, 149, 149) 100%
+  );
+}
+
+input[type="text"],
+input[type="password"] {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#text-group {
+  display: flex;
+  column-gap: 10px;
+}
+
+#radio-group {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+div label {
+  margin-top: 0;
+}
+
+#checkbox-group {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
+  font-weight: bold;
+}
+
+.pink {
+  color: pink;
+  font-weight: bold;
+}
+
+form input[type=submit] {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: aquamarine;
+}

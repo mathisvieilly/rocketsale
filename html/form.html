@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form - VIEILLY</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <!-- uncomment this line to get a more attractive design -->
+  </head>
+  <body>
+    <a href="../index.html">Home</a>
+
+    <hr />
+
+    <h2>Do you want to order?</h2>
+    <h4>Please, fill in the form below.</h4>
+
+    <form>
+      <div id="text-group">
+        <div class="text-input">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Your password"
+          />
+        </div>
+      </div>
+
+      <label for="model"><b>Model</b></label>
+      <div id="radio-group">
+        <input type="radio" id="model1" name="model" value="model1" />
+        <label for="model1">Model 1</label>
+        <input type="radio" id="model2" name="model" value="model2" />
+        <label for="model2">Model 2</label>
+        <input type="radio" id="model3" name="model" value="model3" />
+        <label for="model3">Model 3</label>
+        <input type="radio" id="model4" name="model" value="model4" />
+        <label for="model4">Model 4</label>
+      </div>
+
+      <label for="color"><b>Color</b></label>
+      <div id="checkbox-group">
+        <input type="checkbox" id="red" name="color" value="red" />
+        <label class="red" for="red">Red</label>
+        <input type="checkbox" id="blue" name="color" value="blue" />
+        <label class="blue" for="blue">Blue</label>
+        <input type="checkbox" id="green" name="color" value="green" />
+        <label class="green" for="green">Green</label>
+        <input type="checkbox" id="yellow" name="color" value="yellow" />
+        <label class="yellow" for="yellow">Yellow</label>
+        <input type="checkbox" id="pink" name="color" value="pink" />
+        <label class="pink" for="pink">Pink</label>
+      </div>
+
+      <div>
+        <label for="country"><b>Delivery country</b></label>
+        <select name="country">
+          <option value="france">France</option>
+          <option value="usa">USA</option>
+          <option value="china">China</option>
+          <option value="russia">Italy</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="date"><b>Desired delivery date</b></label>
+        <input type="date" id="date" name="date" />
+      </div>
+
+      <input type="submit" value="Send" />
+    </form>
+    <i>(definitely not a designer)</i>
+  </body>
+</html>
